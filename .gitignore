@@ -4,3 +4,7 @@ __pycache__/
 .DS_Store
 venv
 temp/*
+model.h5
+model.json
+model.yaml
+*.hdf5

@@ -8,3 +8,4 @@ model.h5
 model.json
 model.yaml
 *.hdf5
+2.Convolutional Neural Networks/1.Lessons/images/*

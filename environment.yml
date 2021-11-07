@@ -1,0 +1,11 @@
+name: tensorflow
+channels:
+  - conda-forge 
+dependencies:
+  - python=3.9   # or 2.7
+  - jupyterlab
+  - tensorflow
+  - matplotlib
+  - h5py
+
+# conda env update --file environment.yml  --prune

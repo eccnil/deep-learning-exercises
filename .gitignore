@@ -9,3 +9,4 @@ model.json
 model.yaml
 *.hdf5
 2.Convolutional Neural Networks/1.Lessons/images/*
+2.Convolutional Neural Networks/2.Guided Projects/logs

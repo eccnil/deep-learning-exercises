@@ -7,5 +7,6 @@ dependencies:
   - tensorflow
   - matplotlib
   - h5py
+  - tensorboard
 
 # conda env update --file environment.yml  --prune

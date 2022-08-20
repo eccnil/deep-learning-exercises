@@ -11,5 +11,6 @@ dependencies:
   - numpy
   - scikit-learn
   - tensorflow-deps
+  - tensorboard
 
 # conda env update --file environment.yml  --prune

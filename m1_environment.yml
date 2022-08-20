@@ -13,6 +13,7 @@ dependencies:
   - pandas
   - numpy
   - scikit-learn
+  - tensorboard
   - tensorflow-deps
   - pip: 
     - tensorflow-macos 

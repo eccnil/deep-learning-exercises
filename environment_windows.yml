@@ -1,0 +1,17 @@
+name: tensorflow-gpu
+channels:
+  - conda-forge 
+dependencies:
+  - python=3.9   # or 2.7
+  - jupyterlab
+  - tensorflow-gpu
+  - matplotlib
+  - h5py
+  - tensorboard
+  - cudatoolkit
+
+# conda env update --file environment_windows.yml  --prune
+
+# in your software
+# gpus = tf.config.experimental.list_physical_devices('GPU')
+# tf.config.experimental.set_virtual_device_configuration(gpus[0], [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=1000)])

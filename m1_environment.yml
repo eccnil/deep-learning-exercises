@@ -1,0 +1,23 @@
+#macos m2 environment
+#based on https://www.mrdbourke.com/setup-apple-m1-pro-and-m1-max-for-machine-learning-and-data-science/
+name: tensorflow_m1
+channels:
+  - apple
+  - conda-forge 
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - tensorflow
+  - matplotlib
+  - h5py
+  - pandas
+  - numpy
+  - scikit-learn
+  - tensorflow-deps
+  - pip: 
+    - tensorflow-macos 
+    - tensorflow-metal # gpu
+    - tensorflow-datasets # data to run some benchmarks
+    
+
+# conda env update --file m1_environment.yml  --prune

@@ -2,10 +2,14 @@ name: tensorflow
 channels:
   - conda-forge 
 dependencies:
-  - python=3.9   # or 2.7
+  - python=3.8   # or 2.7
   - jupyterlab
   - tensorflow
   - matplotlib
   - h5py
+  - pandas
+  - numpy
+  - scikit-learn
+  - tensorflow-deps
 
 # conda env update --file environment.yml  --prune
